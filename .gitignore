@@ -1,3 +1,18 @@
-# Godot 4+ specific ignores
+# Carpetas de Godot
+.import/
+.export/
+
+# Archivos de usuario de Godot
+*.tmp
+*.translation
+*.import
+*.log
+
+# Configuración local (no necesaria en otros equipos)
 .godot/
-/android/
+
+# Archivos de exportación
+*.pck
+*.exe
+*.apk
+*.zip
